@@ -1,4 +1,4 @@
-'''#EJERCICIOS BÁSICOS:
+#EJERCICIOS BÁSICOS:
 
 # 1.
 def personalized_greeting(name):
@@ -74,7 +74,7 @@ def count_letters():
         else:
             count[i] = 1
     return count
-print(count_letters())'''
+print(count_letters())
 
 #NIVEL INTERMEDIO
 #9.
@@ -95,6 +95,72 @@ def palindromo(word):
         print("No es un palíndromo")
         
 palindromo("ana")
+import random
+def validate_password(password):
+
+    for caracter in password:
+        if caracter == caracter.upper() and caracter.isalpha():
+            mayus = True
+        elif caracter == caracter.lower() and caracter.isalpha():
+            minus = True
+        elif caracter.isdigit():
+            num = True
+        elif caracter in "!@#$%^&*()_+-=[]{}|;:',.<>?/":
+            simbol = True
+
+    if mayus and minus and num and simbol:
+        return True
+    else:
+        return False
+
+validate_password("Kari2772019*")
+
+#17
+def dade_r():
+    return random.randint(1, 6)
+dade_r()
+
+#18
+def add_uniques(lst):
+    total = 0
+    for num in lst:
+        if lst.count(num) == 1:
+            total += num
+    return total
+lis = [1,2,3,4,5,1,2]
+add_uniques(lis)
+
+#19
+import random
+
+def generate_password(longitud):
+    letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    numbers = "0123456789"
+    simbol = "!@#$%^&*()"
+    
+    todos = letters + numbers + simbol
+    password = ""
+    
+    for i in range(longitud):
+        caracter = random.choice(todos)
+        password += caracter
+    
+    return password
+
+print (generate_password(8))
+
+#20
+def add_2(x):
+    return x + 2
+
+def multiply_3(x):
+    return x * 3
+
+def comp_function(valor):
+    add = add_2(valor)
+    result = multiply_3(add)
+    return result
+print(comp_function(5))
 
 
     
