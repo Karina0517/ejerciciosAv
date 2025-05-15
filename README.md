@@ -12,7 +12,7 @@ En éste repositorio contiene 20 archivos .py que contienen ejericios básicos, 
   <br/><br/><br/>
 
 
-###  2. 📙 SUMA DE DOS NÚMEROS:
+###  2. ➕ SUMA DE DOS NÚMEROS:
 
 - ✔️ Al ejecutar el archivo 'Ejercicio2' el programa pide que se ingresen dos números, para luego mostrar el resultado de su suma.
   
@@ -57,7 +57,7 @@ En éste repositorio contiene 20 archivos .py que contienen ejericios básicos, 
   ⚠️ No se deben ingresar letras, caracteres especiales o espacios.
 <br/><br/><br/>
 
-### 8. 💌 CONTAR LETRAS:
+### 8. ➕ CONTAR LETRAS:
 
 - ✔️ Al ejecutar el archivo 'Ejercicio8' el programa pide que se ingrese una palabra para luego contar cuantas veces aparece una letra en la palabra.
 
@@ -130,7 +130,7 @@ En éste repositorio contiene 20 archivos .py que contienen ejericios básicos, 
 - ✔️ Al ejecutar el archivo 'Ejercicio17' el programa mostrará un número aleatorio del 1 al 6, indicando el valor del lanzamiento del dado.
 <br/><br/><br/>
 
-### 18. 📖 SUMA DE ELEMENTOS ÚNICOS:
+### 18. ➕ SUMA DE ELEMENTOS ÚNICOS:
 
 - ✔️ Al ejecutar el archivo 'Ejercicio18' el programa determina, dada una lista de números, la suma de sus elementos únicos y la muestra).
 
