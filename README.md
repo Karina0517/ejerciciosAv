@@ -55,8 +55,11 @@ En éste repositorio contiene 20 archivos .py que contienen ejericios básicos, 
 - 🟢 Al ejecutar el archivo 'Ejercicio7' el programa determina, dada una lista de números, el número mayor de dicha lista.
 
   ⚠️ No se pueden ingresar letras, caracteres especiales o espacios, si ésto pasa el programa pedirá que se ingrese una temperatura hasta que sea correcta.
-  
-  
+<br/><br/><br/><br/>
+
+### 8. CONTAR LETRAS:
+
+- 🟢 Al ejecutar el archivo 'Ejercicio1' el programa pide que se ingrese un nombre para después mostrar el saludo personalizado con el nombre ingresado. 
   
 
 
